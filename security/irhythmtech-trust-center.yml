@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://www.irhythmtech.com/us/en/who-we-are/trust-center/security
+certifications:
+- SOC 2 Type II
+- HIPAA
+- FIPS 140-2
+- CCPA
+- GDPR
+- EU/US Privacy Shield Framework
+notes: >-
+  Zio by iRhythm publishes a Trust Center security page naming SOC 2 Type II (AICPA
+  Trust Services Principles), HIPAA compliance audited by independent third-party
+  assessors, NIST FIPS 140-2 validation for data encryption (Certificate #3118),
+  and periodic independent third-party Information Security / Data Privacy
+  assessments for CCPA and GDPR, plus continued participation in the EU/US Privacy
+  Shield Framework. ISO 27001, HITRUST, PCI DSS, and FedRAMP are not named.
+evidence:
+- source: https://www.irhythmtech.com/us/en/who-we-are/trust-center/security
+  keywords: [soc 2 type ii, hipaa, fips 140-2, ccpa, gdpr, privacy shield]

@@ -1,8 +1,30 @@
 aid: irhythmtech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/irhythmtech.png
 name: Irhythmtech
-description: 'Irhythmtech is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  iRhythm Technologies is a publicly traded (NASDAQ: IRTC) digital healthcare
+  company specializing in ambulatory cardiac monitoring for the detection and
+  management of heart arrhythmias. Its Zio service pairs a wearable single-lead
+  ECG biosensor patch (Zio monitor and Zio AT) with FDA-cleared AI/deep-learning
+  algorithms, qualified cardiac technician verification, and cloud-based data
+  analytics to produce end-of-wear diagnostic reports for clinicians. The
+  platform includes the ZioSuite clinician portal for report interpretation and
+  patient management, the MyZio patient app for symptom logging and education,
+  EHR integration, and telehealth workflows. iRhythm was surfaced as a portfolio
+  company of Norwest Venture Partners and added to the API Evangelist network.
+  It does not publish a public developer API or documentation portal; enrichment
+  is limited to public identity, trust, and domain-security signals.
 url: https://raw.githubusercontent.com/api-evangelist/irhythmtech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Digital Health
+- Cardiac Monitoring
+- Medical Devices
+- Remote Patient Monitoring
+- Diagnostics
+- Wearables
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,26 @@ maintainers:
 common:
 - type: Website
   url: https://irhythmtech.com
+- type: Careers
+  url: https://www.irhythmtech.com/us/en/who-we-are/careers
+- type: Blog
+  url: https://www.irhythmtech.com/us/en/who-we-are/news-events
+- type: Support
+  url: https://www.irhythmtech.com/us/en/who-we-are/contact-us
+- type: TermsOfService
+  url: https://www.irhythmtech.com/us/en/who-we-are/trust-center/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.irhythmtech.com/us/en/who-we-are/trust-center/privacy
+- type: TrustCenter
+  url: https://www.irhythmtech.com/us/en/who-we-are/trust-center/security
+- type: Compliance
+  url: https://www.irhythmtech.com/us/en/who-we-are/trust-center/security
+- type: TrustCenter
+  url: security/irhythmtech-trust-center.yml
+- type: DomainSecurity
+  url: security/irhythmtech-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
